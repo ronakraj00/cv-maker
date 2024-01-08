@@ -1,0 +1,73 @@
+.cv-display {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-bottom: 100px;
+}
+
+.cv-display > div{
+    padding: 0px;
+}
+
+.cv-display > div > h2 {
+    box-shadow: 0px 2px;
+    margin: 0px;
+}
+.cv-display > div > p {
+    margin: 0px 10px 10px;
+}
+
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.field-value {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+body #root {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+section {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 10px 0px;
+    padding: 8px;
+    width: 450px;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section > h3 {
+    text-align: center;
+}
+
+section form label {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+section form label input {
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 25px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+}
