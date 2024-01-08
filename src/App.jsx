@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CVDisplay } from "./components/cvDisplay";
+import { CVDisplay } from "./components/CVDisplay";
 import EducationInfo from "./components/EducationInfo";
 import ExperienceInfo from "./components/ExperienceInfo";
 import GeneralInfo from "./components/GeneralInfo";
