@@ -28,7 +28,7 @@ export default function ExperienceInfo({ handleFormChange }) {
                     />
                 </label>
                 <label htmlFor="date-of-start-of-company">
-                    <span>Date of Start Of Company</span>
+                    <span>Date of Joining</span>
                     <input
                         onChange={(e) => handleFormChange(e)}
                         type="date"
@@ -36,7 +36,7 @@ export default function ExperienceInfo({ handleFormChange }) {
                     />
                 </label>
                 <label htmlFor="date-of-end-of-company">
-                    <span>Date of End Of Company</span>
+                    <span>Date of leaving</span>
                     <input
                         onChange={(e) => handleFormChange(e)}
                         type="date"
