@@ -20,10 +20,10 @@ export default function EducationInfo({ handleFormChange }) {
                     />
                 </label>
                 <label htmlFor="date-of-study-end">
-                    <span>Date Of Study End</span>
+                    <span>Date Of finishing degree/course</span>
                     <input
                         onChange={(e) => handleFormChange(e)}
-                        type="text"
+                        type="month"
                         id="date-of-study-end"
                     />
                 </label>
